@@ -5,6 +5,35 @@ Productive is an app that allows the user to track and monitor their productivit
 
 # How To Run
 
+### Prerequisites
+- Android Studio
+- Emulator AVD: **Nexus 7 API 30**, with target: **Android 11.0(Google APIs)**
+
+### Instructions
+```
+1. Open Android Studio
+2. Import project and let Android Studio do all the magical import things for you
+3. Set device to Nexus 7 API 30
+4. Build and run ▶️
+```
+
+### How to use
+```
+1. Install the apk file and open the app
+2. There is navigation bar at the bottom of your screen:
+    💰 "Rewards" is to display your title, coins, XP and favorite item:
+        - You can change your title when you level up
+        - Go to "Shop" to buy cosmetics by using coins
+        - Go to "Inventory" to choose your favorite item
+    ⏳ "To-do" is to manage your tasks:
+        - Add, edit, sort and complete tasks
+        - Go to "Statistics" to see your record/history
+    🗓 "Calendar" is to manage tasks by date:
+        - Select a date to see your incomplete tasks on that date
+3. Close the app
+4. Enjoy your day! (until you receive notifications "You have an incomplete task!" on deadline date)
+```
+
 # Required Documentation
 
 ### Vision Statement
@@ -25,10 +54,6 @@ Productive is an app that allows the user to track and monitor their productivit
 
 ### Retrospective
 [RETROSPECTIVE.md](https://code.cs.umanitoba.ca/3350-winter-2021-a01/Productive-6/-/blob/master/RETROSPECTIVE.md)
-
-# Device
-
-We are using the **Nexus 7 API 30**, with target: **Android 11.0(Google APIs)**.
 
 # Flaky Tests
 ## Notification Test
