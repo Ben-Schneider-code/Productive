@@ -1,4 +1,3 @@
-
 ### Running as static file
 
 open `public>index.html`
@@ -20,8 +19,8 @@ To edit the data on the website:
 2. open the yml file that is associated to the section you want to change
 3. make your change
 
-Note: The HTML gets populated using variables from the yml file.
-Note2: I have enabled markdown on most of the text fields, but the markdown is finicky. It uses a tool called markdownify, if you need to google it.
-Note3: if you want to see the HTML files, they are in `themes>toha>layouts>partials>sections`
-    I made some custom partials, namely: vision.html, postmortem.html, video.html. I also heavily reworked about.html.
+Note: The HTML gets populated using variables from the yml file.  
+Note2: I have enabled markdown on most of the text fields, but the markdown is finicky. It uses a tool called markdownify, if you need to google it.  
+Note3: If you want to see the HTML files, they are in `themes>toha>layouts>partials>sections`  
+    I made some custom partials, namely: vision.html, postmortem.html, video.html. I also heavily reworked about.html.  
     Those are the 4 files that I know the site uses. I'd also speculate that it uses Home.html
